@@ -4,4 +4,5 @@ geopandas
 pandas
 shapely
 SPARQLWrapper
+sparql_dataframe
 streamlit-folium
