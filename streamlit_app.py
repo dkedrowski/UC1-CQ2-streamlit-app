@@ -239,7 +239,7 @@ st.title('SAWGraph Use Case 1 (PFAS Testing) Competency Question 2')
 st.header('What surface water bodies are near landfills or Department of Defense sites in Maine?', divider=True)
 col1, col2 = st.columns(2)
 with col1:
-    st_data_map = st_folium(map, width=800, height=600)
+    st_data_map = st_folium(map, width=800, height=600, returned_objects=[])
 with col2:
     st.markdown('The first stage of testing prioritization for many states involves identifying facilities that are likely to be utilizing PFAs chemicals. This competency question addresses features of enivronmental concern (surface water bodies) that are near potential contamination sources.')
     st.markdown('- Landfills are sites of PFAS contamination resulting from both industrial usage and prevalence in consumer products that accumulate in landfills.')
