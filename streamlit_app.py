@@ -5,7 +5,7 @@ import pandas as pd                                                # For datafra
 from shapely import wkt                                            # For working with WKT coordinates in a GeoDataFrame
 from SPARQLWrapper import SPARQLWrapper, JSON, GET, POST, DIGEST   # For querying SPARQL endpoints
 # import sparql_dataframe                                            # For converting SPARQL query results to Pandas dataframes
-from tabulate import tabulate                                      # For pretty printing dataframes
+# from tabulate import tabulate                                      # For pretty printing dataframes
 # import webbrowser
 import streamlit as st
 from streamlit_folium import st_folium
