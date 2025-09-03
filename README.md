@@ -1,25 +1,14 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Demo: SAWGraph query and map deployed using Streamlit
 ```
-⬆️ (Replace above with your app's name)
+⬆️ UC1-CQ2-streamlit-app.py
 ```
 
-Description of the app ...
+The app queries the SAWGraph knowledge graph and returns a map of Maine surface waterbodies that are near landfills and Department of Defense sites.
 
-## Demo App
+## App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://uc1-cq2-app.streamlit.app/)
 
-## GitHub Codespaces
+## Notes
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+This is a proof of concept to show that Colab notebooks can be converted to Streamlit apps and shared via the Streamlit Community Cloud.
